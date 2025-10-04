@@ -1,29 +1,9 @@
 import jobs from '@/data/mock-jobs.json';
 import { notFound } from 'next/navigation';
-import type { Metadata } from 'next';
 import Link from 'next/link';
 import { type Job } from '@/components/JobCard';
 
 type Params = { slug: string };
-
-export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
-  const job = (jobs as Job[]).find(j => j.slug === params.slug);
-  if (!job) return { title: 'Job not found' };
-  const jsonLd = {
-    "@context": "https://schema.org/",
-    "@type": "JobPosting",
-    "title": job.title,
-    "hiringOrganization": { "@type": "Organization", "name": job.company.name },
-    "jobLocationType": job.location_type,
-    "employmentType": job.employment_type,
-    "description": job.description,
-    "datePosted": job.posted_at || "2025-09-30"
-  };
-  return {
-    title: `${job.title} — ${job.company.name}`,
-    other: { 'script:ld+json': JSON.stringify(jsonLd) }
-  };
-}
 
 export default function JobDetail({ params }: { params: Params }) {
   const job = (jobs as Job[]).find(j => j.slug === params.slug);

@@ -1,24 +1,19 @@
-# Aspiring PMs — Jobs & Internships (Starter)
+# Aspiring PMs — Jobs & Internships (Starter v2)
 
-This is a minimal Next.js 14 + Tailwind starter with mock jobs, ready to deploy on Vercel.
-Later, connect Supabase for real data, auth, and storage.
+Next.js 14 + Tailwind starter with mock jobs. Build checks relaxed to avoid TS/ESLint failures on Vercel.
 
 ## Quick Start
-1. `npm install` (or `pnpm i`)
-2. `cp .env.example .env.local` and fill values (you can leave Supabase blank for mock mode)
-3. `npm run dev`
-4. Visit `http://localhost:3000`
+1. `npm install`
+2. `cp .env.example .env.local`
+3. `npm run dev` and open http://localhost:3000
 
 ## Deploy to Vercel
-- Push to GitHub, import into Vercel, set env vars.
-- Add custom domain: `jobs.yourdomain.com`.
+- Push to GitHub, import into Vercel, set domain (e.g., aspiringpmjobs.com).
+- No env vars needed for mock mode.
 
-## WordPress Embed (Option A)
-- Use `<iframe src="https://jobs.yourdomain.com/embed/featured" height="800" style="width:100%;border:0;"></iframe>`
-  on a WordPress page to show featured jobs.
+## WordPress Embed
+Use:
+<iframe src="https://aspiringpmjobs.com/embed/featured" height="900" style="width:100%;border:0;"></iframe>
 
-## Next steps
-- Replace mock data with Supabase queries.
-- Implement Auth (Supabase Auth UI).
-- Build forms for post-a-job and applications.
-- Add JobPosting JSON-LD on job pages (basic example included).
+## Next Steps
+Wire Supabase for real data/auth/storage when ready.

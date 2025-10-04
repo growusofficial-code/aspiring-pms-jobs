@@ -5,7 +5,7 @@ import NavBar from "@/components/NavBar";
 export const metadata: Metadata = {
   title: "Aspiring PMs — Jobs & Internships",
   description: "Find PM jobs and internships. Apply directly. Built for Aspiring PMs.",
-  metadataBase: new URL("https://jobs.aspiringpms.in"),
+  metadataBase: new URL("https://aspiringpmjobs.com"),
   openGraph: { images: ["/og.png"] }
 };
 
