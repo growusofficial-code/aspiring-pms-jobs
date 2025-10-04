@@ -6,7 +6,7 @@ export default function NavBar() {
   const pathname = usePathname();
   const Item = ({ href, children }: { href: string; children: React.ReactNode }) => (
     <Link
-      href={href as string}
+      href={href as any}
       className={`px-3 py-2 rounded-xl hover:bg-slate-800 transition ${pathname === href ? 'bg-slate-800' : ''}`}
     >
       {children}
