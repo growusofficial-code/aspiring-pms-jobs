@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1",
+    "slug": "apm-intern-product-analytics",
+    "title": "APM Intern \u2014 Product Analytics",
+    "company": {
+      "name": "Mydharm",
+      "slug": "mydharm",
+      "logo": ""
+    },
+    "location_type": "remote",
+    "location": "Remote (India)",
+    "employment_type": "internship",
+    "experience_level": "internship",
+    "salary_min": 15000,
+    "salary_max": 25000,
+    "description": "Work with PMs to instrument analytics, define events, and build dashboards.",
+    "skills": [
+      "SQL",
+      "Mixpanel",
+      "GA4",
+      "Product Sense"
+    ],
+    "posted_at": "2025-09-25"
+  },
+  {
+    "id": "2",
+    "slug": "associate-product-manager-growth",
+    "title": "Associate Product Manager \u2014 Growth",
+    "company": {
+      "name": "Study Abroad Buddy",
+      "slug": "sabuddy",
+      "logo": ""
+    },
+    "location_type": "hybrid",
+    "location": "Noida, India",
+    "employment_type": "full_time",
+    "experience_level": "apm",
+    "salary_min": 900000,
+    "salary_max": 1200000,
+    "description": "Own onboarding funnels, run experiments, and lift activation by 20%.",
+    "skills": [
+      "A/B Testing",
+      "Funnels",
+      "SQL",
+      "User Research"
+    ],
+    "posted_at": "2025-09-28"
+  },
+  {
+    "id": "3",
+    "slug": "product-manager-platform",
+    "title": "Product Manager \u2014 Platform",
+    "company": {
+      "name": "PRX",
+      "slug": "prx",
+      "logo": ""
+    },
+    "location_type": "remote",
+    "location": "Remote (India)",
+    "employment_type": "full_time",
+    "experience_level": "pm",
+    "salary_min": 2500000,
+    "salary_max": 3500000,
+    "description": "Drive platform roadmap for aspiring PM education products.",
+    "skills": [
+      "Roadmapping",
+      "APIs",
+      "Stakeholder Management"
+    ],
+    "posted_at": "2025-09-30"
+  }
+]
